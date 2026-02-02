@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Tech Learn Hub - Honest tech product recommendations and buying guides for India. Find the best laptops, headphones, and gadgets with in-depth reviews.">
+  <meta name="keywords" content="tech reviews India, best laptops India, headphones, gadgets, tech buying guide">
+  <meta name="author" content="The Tech Learn Hub">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="The Tech Learn Hub | Tech Reviews & Buying Guides for India">
+  <meta property="og:description" content="Honest tech product recommendations and buying guides for India.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0f172a">
+  <title>The Tech Learn Hub | Tech Reviews & Buying Guides for India</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Skip to main content for accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Sticky Header & Navigation -->
+  <header class="header" role="banner">
+    <div class="header__inner container">
+      <a href="/" class="logo" aria-label="The Tech Learn Hub - Home">
+        <span class="logo__text">TechLearnHub</span>
+      </a>
+
+      <button class="nav-toggle" 
+              aria-expanded="false" 
+              aria-controls="main-nav" 
+              aria-label="Toggle navigation menu"
+              type="button">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+
+      <nav id="main-nav" class="nav" role="navigation" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a href="#home" class="nav__link">Home</a></li>
+          <li><a href="#categories" class="nav__link">Categories</a></li>
+          <li><a href="#products" class="nav__link">Products</a></li>
+          <li><a href="#about" class="nav__link">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" role="main">
+    <!-- Hero Section -->
+    <section id="home" class="hero" aria-labelledby="hero-title">
+      <div class="hero__content container">
+        <h1 id="hero-title" class="hero__title">Tech Reviews & Buying Guides for India</h1>
+        <p class="hero__subtitle">Honest, in-depth product recommendations to help you make better tech decisions.</p>
+      </div>
+    </section>
+
+    <!-- Affiliate Disclosure -->
+    <aside class="disclosure" role="complementary" aria-label="Affiliate disclosure">
+      <div class="container">
+        <p class="disclosure__text">
+          <strong>Disclosure:</strong> As an Amazon Associate, we earn from qualifying purchases. 
+          Our recommendations are based on genuine research—we never recommend products we wouldn't use ourselves.
+        </p>
+      </div>
+    </aside>
+
+    <!-- Category Filter Section -->
+    <section id="categories" class="section section--filter" aria-labelledby="filter-title">
+      <div class="container">
+        <h2 id="filter-title" class="section__title">Browse by Category</h2>
+        <div class="filter-buttons" role="group" aria-label="Filter products by category">
+          <button type="button" class="filter-btn filter-btn--active" data-category="all" aria-pressed="true">All Products</button>
+          <button type="button" class="filter-btn" data-category="laptops" aria-pressed="false">Laptops</button>
+          <button type="button" class="filter-btn" data-category="headphones" aria-pressed="false">Headphones</button>
+          <button type="button" class="filter-btn" data-category="smartphones" aria-pressed="false">Smartphones</button>
+          <button type="button" class="filter-btn" data-category="accessories" aria-pressed="false">Accessories</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Grid -->
+    <section id="products" class="section section--products" aria-labelledby="products-title">
+      <div class="container">
+        <h2 id="products-title" class="section__title">Top Picks for You</h2>
+        
+        <div class="product-grid" role="list">
+          <!-- Laptops -->
+          <article class="product-card" data-category="laptops" role="listitem">
+            <div class="product-card__image-wrap">
+              <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=300&fit=crop" 
+                   alt="Laptop on desk" 
+                   class="product-card__image"
+                   loading="lazy"
+                   width="400"
+                   height="300">
+              <span class="product-card__badge">Laptops</span>
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Best Laptops Under ₹50,000 in 2025</h3>
+              <p class="product-card__desc">Curated list of reliable laptops for students and professionals in India.</p>
+              <a href="https://amazon.in/dp/example?tag=thetechlearnhub-21" 
+                 class="product-card__link" 
+                 target="_blank" 
+                 rel="noopener noreferrer sponsored">
+                View on Amazon →
+              </a>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="laptops" role="listitem">
+            <div class="product-card__image-wrap">
+              <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400&h=300&fit=crop" 
+                   alt="MacBook laptop" 
+                   class="product-card__image"
+                   loading="lazy"
+                   width="400"
+                   height="300">
+              <span class="product-card__badge">Laptops</span>
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Best Budget Laptops for Coding 2025</h3>
+              <p class="product-card__desc">Performance-focused laptops for developers and creators.</p>
+              <a href="https://amazon.in/dp/example?tag=thetechlearnhub-21" 
+                 class="product-card__link" 
+                 target="_blank" 
+                 rel="noopener noreferrer sponsored">
+                View on Amazon →
+              </a>
+            </div>
+          </article>
+
+          <!-- Headphones -->
+          <article class="product-card" data-category="headphones" role="listitem">
+            <div class="product-card__image-wrap">
+              <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop" 
+                   alt="Wireless headphones" 
+                   class="product-card__image"
+                   loading="lazy"
+                   width="400"
+                   height="300">
+              <span class="product-card__badge">Headphones</span>
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Best Wireless Headphones Under ₹5,000</h3>
+              <p class="product-card__desc">Quality audio without breaking the bank—our top picks.</p>
+              <a href="https://amazon.in/dp/example?tag=thetechlearnhub-21" 
+                 class="product-card__link" 
+                 target="_blank" 
+                 rel="noopener noreferrer sponsored">
+                View on Amazon →
+              </a>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="headphones" role="listitem">
+            <div class="product-card__image-wrap">
+              <img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?w=400&h=300&fit=crop" 
+                   alt="Over-ear headphones" 
+                   class="product-card__image"
+                   loading="lazy"
+                   width="400"
+                   height="300">
+              <span class="product-card__badge">Headphones</span>
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Best Noise-Cancelling Headphones India</h3>
+              <p class="product-card__desc">Block out distractions for work and travel.</p>
+              <a href="https://amazon.in/dp/example?tag=thetechlearnhub-21" 
+                 class="product-card__link" 
+                 target="_blank" 
+                 rel="noopener noreferrer sponsored">
+                View on Amazon →
+              </a>
+            </div>
+          </article>
+
+          <!-- Smartphones -->
+          <article class="product-card" data-category="smartphones" role="listitem">
+            <div class="product-card__image-wrap">
+              <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=300&fit=crop" 
+                   alt="Smartphone" 
+                   class="product-card__image"
+                   loading="lazy"
+                   width="400"
+                   height="300">
+              <span class="product-card__badge">Smartphones</span>
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Best Phones Under ₹20,000 in 2025</h3>
+              <p class="product-card__desc">Value-for-money smartphones with great cameras and battery life.</p>
+              <a href="https://amazon.in/dp/example?tag=thetechlearnhub-21" 
+                 class="product-card__link" 
+                 target="_blank" 
+                 rel="noopener noreferrer sponsored">
+                View on Amazon →
+              </a>
+            </div>
+          </article>
+
+          <!-- Accessories -->
+          <article class="product-card" data-category="accessories" role="listitem">
+            <div class="product-card__image-wrap">
+              <img src="https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400&h=300&fit=crop" 
+                   alt="Tech accessories" 
+                   class="product-card__image"
+                   loading="lazy"
+                   width="400"
+                   height="300">
+              <span class="product-card__badge">Accessories</span>
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Essential Tech Accessories Under ₹2,000</h3>
+              <p class="product-card__desc">Chargers, cables, stands, and more to upgrade your setup.</p>
+              <a href="https://amazon.in/dp/example?tag=thetechlearnhub-21" 
+                 class="product-card__link" 
+                 target="_blank" 
+                 rel="noopener noreferrer sponsored">
+                View on Amazon →
+              </a>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="accessories" role="listitem">
+            <div class="product-card__image-wrap">
+              <img src="https://images.unsplash.com/photo-1587614382346-4ec70e388b28?w=400&h=300&fit=crop" 
+                   alt="USB hub and cables" 
+                   class="product-card__image"
+                   loading="lazy"
+                   width="400"
+                   height="300">
+              <span class="product-card__badge">Accessories</span>
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Best USB-C Hubs & Docks for Laptops</h3>
+              <p class="product-card__desc">Expand connectivity for modern laptops.</p>
+              <a href="https://amazon.in/dp/example?tag=thetechlearnhub-21" 
+                 class="product-card__link" 
+                 target="_blank" 
+                 rel="noopener noreferrer sponsored">
+                View on Amazon →
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <p class="no-results hidden" id="no-results" role="status">
+          No products match this category. Try another filter.
+        </p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section section--about" aria-labelledby="about-title">
+      <div class="container">
+        <h2 id="about-title" class="section__title">About The Tech Learn Hub</h2>
+        <div class="about-content">
+          <p>We help Indian tech enthusiasts make informed buying decisions. Our guides are researched, unbiased, and updated regularly to reflect current prices and availability on Amazon India.</p>
+          <p>Questions or suggestions? Reach out—we'd love to hear from you.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <p class="footer__disclosure">
+        As an Amazon Associate we earn from qualifying purchases. Product prices and availability are subject to change.
+      </p>
+      <p class="footer__copy">&copy; 2025 The Tech Learn Hub. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
